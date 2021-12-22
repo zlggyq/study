@@ -55,7 +55,13 @@ spring:
         max-active: 8
         # #连接池最大阻塞等待时间（使用负值表示没有限制）
         max-wait: -1ms
-
+# elasticsearch 配置
+  elasticsearch:
+    rest:
+      username: elastic
+      password: zlgg@965
+      uris:
+        - http://localhost:9200
 #FTP配置
 ftp:
   hostname: 49.235.109.153
