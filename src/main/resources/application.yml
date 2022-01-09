@@ -61,7 +61,7 @@ spring:
       username: elastic
       password: zlgg@965
       uris:
-        - http://localhost:9200
+        - http://192.168.1.109:1003
 #FTP配置
 ftp:
   hostname: 49.235.109.153
